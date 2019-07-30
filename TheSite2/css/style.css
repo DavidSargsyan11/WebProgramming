@@ -88,6 +88,7 @@ header{
 }
 .menu li{
   display: inline-block;
+  margin: 10px 0px 10px;
 }
 .menu a{
   color: #323232;

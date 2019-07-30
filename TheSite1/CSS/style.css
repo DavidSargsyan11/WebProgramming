@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px; 
+}
+body{
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5e5e5e;
+}
+header{
+  font-family: 'Roboto', sans-serif;
+  background-image: url(../Images/ap-ui.jpg);
+  max-width: 100%;
+  height: 555px;
+}
+.header_top{
+  display: flex;
+  justify-content: space-between;
+}
+.header_nav li{
+  display: inline-block;
+}
+.header_nav a{
+  color: #e7e5ec;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  font-weight: 400;
+  font-family: ;          
+}
+.header_nav li + li{
+  padding-left: 55px;
+}
